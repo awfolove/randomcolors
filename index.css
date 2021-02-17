@@ -1,0 +1,128 @@
+@font-face {font-family: BMJUA-ttf;
+    src : url(resource/font/BMJUA_ttf.ttf) format('truetype');
+}
+
+@font-face {font-family: BMDOHYEON_ttf;
+    src : url(resource/font/BMDOHYEON_ttf.ttf) format('truetype'); 
+}
+
+@font-face {font-family: BMHANNAAir_ttf;
+    src : url(resource/font/BMHANNAAir_ttf.ttf) format('truetype');
+}
+
+body { background: black; }
+
+
+#text {
+    color:white;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#square {
+    
+    width : 200px;
+    height: 200px;
+    background: beige;
+    
+}
+
+
+#square2 {
+    
+    width : 200px;
+    height: 200px;
+    background: beige;
+}
+
+#square3 {
+    
+    width : 200px;
+    height: 200px;
+    background: beige;
+}
+
+
+#box {
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+#box1 {
+    color:white;
+    display:block;
+    width:200px;
+    margin: 10px;
+    
+}
+
+#box2 {
+    color:white;
+    display:block;
+    width:200px;
+    margin: 10px;
+    
+    
+}
+
+
+#box3 {
+    color:white;
+    display:block;
+    width:200px;
+    margin: 10px;
+    
+    
+}
+
+#div-button {
+    
+    margin-top:20px; 
+    text-align: center;
+    
+}
+
+.button { background: #77A1D3;
+    border: 1px none gray;
+    border-radius: 5px;
+    padding: 10px; font-size: 20px;}
+
+.button:hover { cursor: pointer;}
+
+
+
+#div-radio1
+
+{
+    color:white;
+    text-align: center;
+    
+}
+
+
+footer { color:white; text-align: center; margin-top: 3%; }
+
+footer a { color:white; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
