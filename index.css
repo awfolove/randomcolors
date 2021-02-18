@@ -10,10 +10,10 @@
     src : url(resource/font/BMHANNAAir_ttf.ttf) format('truetype');
 }
 
-body { background: black; }
+body { background: black; text-align: center; }
 
 
-#text {
+.text {
     color:white;
     margin-top: 5%;
     text-align: center;
@@ -22,6 +22,40 @@ body { background: black; }
     
 }
 
+.box {
+    color:white;   text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.box1 {
+    color:white;
+ display: inline-block;
+    width:200px;
+    margin: 10px;
+    float: left;
+    
+}
+
+.box2 {
+    color:white;
+ display: inline-block;
+    width:200px;
+    margin: 10px;
+    float: left;
+}
+
+
+.box3 {
+    color:white;
+ display: inline-block;
+    width:200px;
+    margin: 10px;
+    float: left;
+}
+
+
 #square {
     
     width : 200px;
@@ -29,7 +63,6 @@ body { background: black; }
     background: beige;
     
 }
-
 
 #square2 {
     
@@ -43,43 +76,6 @@ body { background: black; }
     width : 200px;
     height: 200px;
     background: beige;
-}
-
-
-#box {
-    color:white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-}
-
-
-#box1 {
-    color:white;
-    display:block;
-    width:200px;
-    margin: 10px;
-    
-}
-
-#box2 {
-    color:white;
-    display:block;
-    width:200px;
-    margin: 10px;
-    
-    
-}
-
-
-#box3 {
-    color:white;
-    display:block;
-    width:200px;
-    margin: 10px;
-    
-    
 }
 
 #div-button {
@@ -96,8 +92,6 @@ body { background: black; }
 
 .button:hover { cursor: pointer;}
 
-
-
 #div-radio1
 
 {
@@ -108,21 +102,106 @@ body { background: black; }
 
 
 footer { color:white; text-align: center; margin-top: 3%; }
-
 footer a { color:white; }
 
 
+@media screen and (max-width: 720px) {
+    
+    .box1 {
+    color:white;
+ display: inline-block;
+    width:100px;
+    margin: 10px;
+    float: left;
+    
+}
+
+.box2 {
+    color:white;
+ display: inline-block;
+    width:100px;
+    margin: 10px;
+    float: left;
+}
 
 
+.box3 {
+    color:white;
+ display: inline-block;
+    width:100px;
+    margin: 10px;
+    float: left;
+}
 
 
+#square {
+    
+    width : 100px;
+    height: 100px;
+    background: beige;
+    
+}
+
+#square2 {
+    
+    width : 100px;
+    height: 100px;
+    background: beige;
+}
+
+#square3 {
+    
+    width : 100px;
+    height: 100px;
+    background: beige;
+}
+}
 
 
+@media screen and (max-width: 540px) {
+    
+    .box1 {
+    color:white;
+ display:block;
+    width:100px;
+    margin: 10px;
+    float: none;
+    
+}
+
+.box2 {
+    color:white;
+ display: block;
+    width:100px;
+    margin: 10px; float: none;
+}
 
 
+.box3 {
+    color:white;
+ display: block;
+    width:100px;
+    margin: 10px; float: none; margin-bottom: 13px;
+}
 
+#square {
+    
+    width : 100px;
+    height: 100px;
+    background: beige;
+    
+}
 
+#square2 {
+    
+    width : 100px;
+    height: 100px;
+    background: beige;
+}
 
-
-
-
+#square3 {
+    width : 100px;
+    height: 100px;
+    background: beige;
+} 
+}
